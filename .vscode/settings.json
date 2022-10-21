@@ -1,4 +1,15 @@
 {
     "notebook.output.textLineLimit": 100,
-    "sqltools.connections": []
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "localhost",
+            "database": "db_enem",
+            "username": "postgres",
+            "password": "root"
+        }
+    ]
 }
