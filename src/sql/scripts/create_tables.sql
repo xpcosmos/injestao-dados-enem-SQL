@@ -1,14 +1,32 @@
--- Criação de tabela de Unidade Federativa (UF)
+-- Criação de tabela de Regiões
 
+
+CREATE TABLE IF NOT EXISTS enem2020.REGIAO(
+    cod_mun BIGINT PRIMARY KEY,
+    UF BIGINT,
+    Nome_UF varchar(150),
+    regiao_geo_inter BIGINT,
+    nome_regiao_geo_inter varchar(150), 
+    regiao_geo_imed BIGINT,
+    nome_regiao_geo_imed varchar(150),
+    meso_geo BIGINT,
+    nome_meso varchar(150),
+    micro_geo BIGINT,
+    nome_micro varchar(150),
+    municipio BIGINT,
+    nome_mun varchar(150)
+)
+
+-- Criação da tabela UF
 CREATE TABLE IF NOT EXISTS enem2020.UF(
-    COD_UF INT NOT NULL PRIMARY KEY,
-    SIGLA_UF VARCHAR(2)
+    cod_uf INT PRIMARY KEY,
+    nome_uf VARCHAR(150)
 );
 
-CREATE TABLE IF NOT EXISTS enem2020.MUNICIPIO(
-    COD_MUN INT NOT NULL PRIMARY KEY,
-    NOME_MUNICIPIO VARCHAR(150)
-);
+
+
+
+
 
 --  Criação da tabela escolas
 
