@@ -1,6 +1,6 @@
 # Introdução
 
-Esse projeto tem o objetivo de estruturar dados do enem em bancos de dados e analisar os dados utilizando métodos estatísticos. 
+Esse projeto tem o objetivo de criar um banco de dados utilizando PySpark com os microdados do enem. Os dados irão popular uma base de dados do enem.
 
 Conhecimentos adquiridos/aprimorados durante o projeto:
 
