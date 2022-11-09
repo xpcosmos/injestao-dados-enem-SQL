@@ -1,6 +1,6 @@
 # Introdução
 
-Esse projeto tem o objetivo de criar um banco de dados utilizando PySpark com os microdados do enem. Os dados irão popular uma base de dados do enem.
+Esse projeto tem o objetivo de criar um banco de dados utilizando PySpark com os microdados do enem. O projeto foi desenvolvido para fins de desenvolvimento pessoal.
 
 Conhecimentos adquiridos/aprimorados durante o projeto:
 
